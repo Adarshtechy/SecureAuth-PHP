@@ -61,17 +61,17 @@ cd PHP-Auth-System-Login-Register
 ```
 
 2. Set Up Local Server
-  -Use XAMPP, WAMP, or MAMP.
+  - Use XAMPP, WAMP, or MAMP.
 
-  -Move the project folder to the htdocs directory.
+  - Move the project folder to the htdocs directory.
 
 3. Create MySQL Database
 
-  -Open phpMyAdmin
+  - Open phpMyAdmin
 
-  -Create a new database (e.g., auth_system)
+  - Create a new database (e.g., auth_system)
 
-  -Create a users table:
+  - Create a users table:
 
 ```sql
 CREATE TABLE users (
@@ -85,7 +85,7 @@ CREATE TABLE users (
 
 4. Update config.php
 
-  -Ensure the database credentials in config.php match your local setup:
+  - Ensure the database credentials in config.php match your local setup:
 
 ```php
 $conn = mysqli_connect('localhost', 'root', '', 'auth_system');
@@ -93,7 +93,7 @@ $conn = mysqli_connect('localhost', 'root', '', 'auth_system');
 
 5. Run the Application
 
-  -Open your browser and go to:
+  - Open your browser and go to:
 
 ```pgsql
 http://localhost/PHP-Auth-System-Login-Register/index.php
