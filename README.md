@@ -32,7 +32,7 @@ This project includes user registration, login, logout, session handling, and ba
 
 ## 📁 Folder Structure
 ```
-php-auth-system-login-register/
+PHP-Auth-System/
 ├── index.php               # Main page with login/register forms
 ├── login_register.php      # Handles login and register actions
 ├── config.php              # Database connection config
@@ -48,8 +48,8 @@ php-auth-system-login-register/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Adarshtechy/SecureAuth-PHP.git
-cd SecureAuth-PHP
+git clone https://github.com/Adarshtechy/PHP-Auth-System.git
+cd PHP-Auth-System
 ```
 
 2. Set Up Local Server
