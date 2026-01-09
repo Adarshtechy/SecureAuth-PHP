@@ -33,6 +33,7 @@ This project includes user registration, login, logout, session handling, and ba
 ## 📁 Folder Structure
 ```
 PHP-Auth-System/
+|
 ├── index.php               # Main page with login/register forms
 ├── login_register.php      # Handles login and register actions
 ├── config.php              # Database connection config
